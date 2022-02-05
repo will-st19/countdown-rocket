@@ -1,0 +1,17 @@
+.font-1-s {
+  font: 300 0.875rem/1.5 "Poppins", sans-serif;
+  text-transform: capitalize;
+  color: var(--text-color);
+}
+
+.font-1-m {
+  font: 400 4.5rem/1.5 "Poppins", sans-serif;
+  color: var(--black);
+}
+
+.font-1-l {
+  font: 500 2.25rem/1.5 "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: var(--purple);
+  letter-spacing: 0.015em;
+}
