@@ -6,8 +6,6 @@ function startTimer(duration, display) {
     seconds;
   var tempo = 1000;
 
-  console.log("(1) TIMER = " + timer);
-
   setInterval(function () {
     days = Math.floor(timer / (24 * 60 * 60 * 1000));
     hours = Math.floor((timer / (60 * 60 * 1000)) % 24);
@@ -21,8 +19,6 @@ function startTimer(duration, display) {
 
     display.textContent =
       days + " : " + hours + " : " + minutes + " : " + seconds;
-
-    console.log("(2) TIMER = " + timer);
 
     timer -= tempo;
 
@@ -39,25 +35,9 @@ window.onload = function () {
   var dif = fim - inicio;
   var display = document.querySelector("#timer");
 
-  console.log("INÍCIO = " + inicio);
-  console.log("FIM = " + fim);
-  console.log("DIF = " + dif);
-
   if (dif > 0) {
     startTimer(dif, display);
   } else {
     alert("Não é possível iniciar!!!");
   }
-
-  /*
-  var d = Math.floor(dif / (24 * 60 * 60 * 1000));
-  var h = Math.floor((dif / (60 * 60 * 1000)) % 24);
-  var m = Math.floor((dif / (60 * 1000)) % 60);
-  var s = Math.floor((dif / 1000) % 60);
-
-  console.log("D... = " + d);
-  console.log("H... = " + h);
-  console.log("M... = " + m);
-  console.log("S... = " + s);
-  */
 };
