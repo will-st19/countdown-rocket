@@ -31,7 +31,7 @@ function startTimer(duration, display) {
 
 window.onload = function () {
   var inicio = new Date().getTime();
-  var fim = new Date("16 Feb 2022 21:45:00 GMT-0300").getTime();
+  var fim = new Date("1 Jan 2023 00:00:00 GMT-0300").getTime();
   var dif = fim - inicio;
   var display = document.querySelector("#timer");
 

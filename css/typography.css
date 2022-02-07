@@ -19,9 +19,19 @@
   color: var(--white-color);
 }
 
+.font-4-m {
+  font: 400 1rem/1.5 "Poppins", sans-serif;
+  color: var(--black);
+}
+
 .font-1-l {
   font: 500 2.25rem/1.5 "Poppins", sans-serif;
   text-transform: uppercase;
   color: var(--purple);
   letter-spacing: 0.015em;
+}
+
+.font-2-l {
+  font: 700 1.5rem/1.5 "Poppins", sans-serif;
+  color: var(--black);
 }

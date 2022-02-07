@@ -66,3 +66,70 @@ img {
 .botao:hover {
   background: #5852c2;
 }
+
+.input-text {
+  font-family: "PT Mono", monospace;
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  color: #2a2426;
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  border: 2px solid #988c77;
+  background: transparent;
+  margin-bottom: 1em;
+}
+
+input.button-sign {
+  font-family: "PT Mono", monospace;
+  font-size: 1.125em;
+  line-height: 1.66667em;
+  cursor: pointer;
+  color: #988c77;
+  text-transform: uppercase;
+  border: 2px solid #988c77;
+  background: transparent;
+  display: block;
+  width: 200px;
+  padding-top: 5px;
+  -webkit-box-shadow: 5px 5px 0 -2px #cbc6b9, 5px 5px 0 0 #988c77;
+  -moz-box-shadow: 5px 5px 0 -2px #cbc6b9, 5px 5px 0 0 #988c77;
+  box-shadow: 5px 5px 0 -2px #cbc6b9, 5px 5px 0 0 #988c77;
+  transition: 0.3s;
+}
+
+.container-sign-in {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: var(--white-color);
+  width: 60%;
+  min-width: 300px;
+  padding: 20px;
+  border: 10px solid var(--black);
+  box-shadow: 0 0 0 10px var(--white-color);
+  position: relative;
+}
+
+.close-modal {
+  position: absolute;
+  top: -30px;
+  right: -30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 4px solid var(--white-color);
+  background: var(--purple);
+  cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+}
