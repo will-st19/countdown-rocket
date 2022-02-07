@@ -5,6 +5,7 @@
   --purple: #6c63ff;
   --light-grey: #c8c8c8;
   --text-color: #9c9ab6;
+  --white-color: #ffffff;
   --space: 24px;
 }
 
@@ -18,7 +19,15 @@ li {
 }
 
 body {
-  height: 100vh;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 .content {
@@ -29,20 +38,31 @@ body {
 }
 
 .countdown {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .period {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  margin-top: 25px;
+  gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.clock {
-  display: flex;
-  justify-content: space-around;
+.sign-up {
+  margin-top: 15px;
+  margin-bottom: 30px;
 }
 
-.img-rocket {
-  width: 607px;
-  height: 435px;
+.botao {
+  display: inline-block;
+  padding: 11px 32px;
+  background: var(--purple);
+  border-radius: 10px;
+}
+
+.botao:hover {
+  background: #5852c2;
 }

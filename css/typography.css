@@ -1,12 +1,22 @@
 .font-1-s {
   font: 300 0.875rem/1.5 "Poppins", sans-serif;
   text-transform: capitalize;
-  color: var(--text-color);
+  color: var(--light-grey);
 }
 
 .font-1-m {
   font: 400 4.5rem/1.5 "Poppins", sans-serif;
   color: var(--black);
+}
+
+.font-2-m {
+  font: 400 0.875rem/1.5 "Poppins", sans-serif;
+  color: var(--text-color);
+}
+
+.font-3-m {
+  font: 400 1rem/1.5 "Poppins", sans-serif;
+  color: var(--white-color);
 }
 
 .font-1-l {
